@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LORDEN PROMPTS — индивидуальные промты для нейросетей</title>
+<meta name="description" content="Индивидуальные промты для Claude, ChatGPT и других нейросетей: сайты, код, приложения, дизайн, автоматизация, Telegram и контент.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="LORDEN PROMPTS — индивидуальные промты для нейросетей">
+<meta property="og:description" content="Твоя идея. Точный промт. Больше возможностей.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hdr">
+ <div class="wrap bar">
+  <a class="logo" href="#top"><span class="mono">L.</span><span>LORDEN PROMPTS</span></a>
+  <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav">Меню</button>
+  <nav id="nav" class="nav" aria-label="Основная навигация">
+   <a href="#top">Главная</a><a href="#services">Услуги</a><a href="#examples">Примеры</a><a href="#pricing">Тарифы</a><a href="#faq">FAQ</a>
+   <button class="btn primary" type="button" data-order>Заказать промт</button>
+  </nav>
+ </div>
+</header>
+<main id="top">
+ <section class="hero wrap">
+  <div>
+   <p class="eyebrow">INDIVIDUAL AI PROMPTS</p>
+   <h1>Твоя идея.<br>Точный промт.<br><span class="dim">Больше возможностей.</span></h1>
+   <p class="lead">Создаём индивидуальные промты для нейросетей под твои задачи — от программирования и разработки проектов до дизайна и контента.</p>
+   <div class="actions"><a class="btn primary" href="#services">Выбрать услугу</a><a class="btn" href="#examples">Посмотреть примеры</a></div>
+  </div>
+  <div class="panel" aria-hidden="true"><div class="dots"><i></i><i></i><i></i></div>
+<pre>РОЛЬ: senior-разработчик
+ЦЕЛЬ: адаптивный сайт услуг
+КОНТЕКСТ: тёмный минимализм
+ТРЕБОВАНИЯ:
+  - каталог и карточки
+  - формы с валидацией
+ОГРАНИЧЕНИЯ: без фреймворков
+ФОРМАТ: полный код файлов
+ПРОВЕРКА: чек-лист готовности</pre></div>
+ </section>
+
+ <section class="sec alt"><div class="wrap">
+  <div class="grid g4">
+   <article class="card"><h3>Под конкретную задачу</h3><p>Учитываем цель, требования, ограничения и ожидаемый результат.</p></article>
+   <article class="card"><h3>Понятная структура</h3><p>Разделяем инструкции на логические части, чтобы нейросети было проще следовать требованиям.</p></article>
+   <article class="card"><h3>Без лишних обещаний</h3><p>Согласовываем объём работы и объясняем, что именно входит в заказ.</p></article>
+   <article class="card"><h3>Удобная выдача</h3><p>Ты получаешь готовый текст промта, который можно скопировать и использовать самостоятельно.</p></article>
+  </div></div></section>
+
+ <section class="sec" id="services"><div class="wrap">
+  <h2>Категории промтов</h2>
+  <p class="sub">Мы готовим тексты инструкций для нейросетей. Сами сайты, программы и приложения в стоимость не входят.</p>
+  <div class="filters" id="filters" role="group" aria-label="Фильтр категорий"></div>
+  <div class="grid g4" id="catalog"></div>
+ </div></section>
+
+ <section class="sec alt"><div class="wrap">
+  <h2>Как это работает</h2>
+  <ol class="grid g4 steps">
+   <li class="card"><b>01</b><h3>Знакомство с задачей</h3><p>Клиент объясняет, чего хочет добиться.</p></li>
+   <li class="card"><b>02</b><h3>Уточнение требований</h3><p>Определяем нужную нейросеть, сложность, формат результата и ограничения.</p></li>
+   <li class="card"><b>03</b><h3>Подготовка промта</h3><p>Составляем структурированный текст с инструкциями, контекстом и критериями результата.</p></li>
+   <li class="card"><b>04</b><h3>Передача результата</h3><p>Клиент получает готовый текст и использует его самостоятельно.</p></li>
+  </ol>
+  <p class="note">Срок и объём работы согласовываются перед началом выполнения заказа.</p>
+ </div></section>
+
+ <section class="sec" id="pricing"><div class="wrap">
+  <h2>Тарифы</h2>
+  <div class="grid g3" id="plans"></div>
+  <p class="note">Указаны стартовые цены. Итоговая стоимость зависит от сложности и объёма задачи. До начала работы согласовываются состав заказа, срок и количество корректировок. В стоимость входит подготовка текста промта, а не создание готового сайта, программы или другого продукта.</p>
+  <article class="card extra"><div><h3>Улучшение существующего промта</h3><p id="improvePrice" class="dim"></p></div><button class="btn" type="button" data-order data-cat="CUSTOM" data-plan="IMPROVE">Обсудить в Telegram</button></article>
+ </div></section>
+
+ <section class="sec alt" id="examples"><div class="wrap">
+  <h2>Примеры</h2>
+  <p class="sub">Все примеры демонстрационные: это не реальные заказы клиентов.</p>
+  <div class="grid g3" id="exlist"></div>
+ </div></section>
+
+ <section class="sec" id="method"><div class="wrap two">
+  <div>
+   <h2>Из чего состоит хороший промт</h2>
+   <p class="sub">Подробная постановка задачи снижает неоднозначность, но результат зависит от модели, контекста и сложности задачи. Гарантий идеального ответа никто дать не может.</p>
+   <ol class="plain"><li>Роль нейросети</li><li>Цель</li><li>Контекст</li><li>Исходные данные</li><li>Конкретные требования</li><li>Ограничения</li><li>Формат ответа</li><li>Критерии качества</li><li>Проверка результата</li><li>Дополнительные сценарии</li></ol>
+  </div>
+  <div class="panel"><pre>Роль: ты — Python-разработчик.
+Цель: скрипт переименования файлов.
+Контекст: Windows, новичок.
+Данные: папка с .jpg и .png.
+Требования: шаблон имени, лог.
+Ограничения: только стандартная библиотека.
+Формат: полный код + команда запуска.
+Критерии: не затирает файлы.
+Проверка: тест на копии папки.</pre></div>
+ </div></section>
+
+ <section class="sec alt" id="faq"><div class="wrap narrow">
+  <h2>FAQ</h2>
+  <div id="faqlist"></div>
+ </div></section>
+
+ <section class="sec" id="contact"><div class="wrap center">
+  <h2>Есть идея? Давай проработаем её.</h2>
+  <p class="sub">Расскажи, что хочешь получить от нейросети. Мы поможем превратить твою идею в понятный и структурированный промт.</p>
+  <p><a class="btn primary" href="https://t.me/rozovoye" target="_blank" rel="noopener">Обсудить заказ в Telegram</a></p>
+  <p class="dim">@rozovoye</p>
+  <p class="note">Заказ считается согласованным после обсуждения требований, цены и условий выполнения.</p>
+ </div></section>
+</main>
+
+<footer class="ftr"><div class="wrap">
+ <p><b>LORDEN PROMPTS</b> — индивидуальная подготовка промтов для нейросетей.</p>
+ <p class="dim">Результат работы нейросети не гарантируется. Условия конкретного заказа согласовываются отдельно.</p>
+ <p><a href="#services">Услуги</a> · <a href="#pricing">Тарифы</a> · <a href="#faq">FAQ</a> · <a href="https://t.me/rozovoye" target="_blank" rel="noopener">Telegram</a></p>
+ <p class="dim">© <span id="year"></span> LORDEN PROMPTS</p>
+</div></footer>
+
+<dialog id="orderDlg" aria-labelledby="orderTitle">
+ <div class="dhead"><h2 id="orderTitle">Подготовка заказа</h2><button class="x" type="button" data-close aria-label="Закрыть">✕</button></div>
+ <form id="orderForm" novalidate>
+  <label>Категория<select id="fCat"></select></label>
+  <label>Тариф<select id="fPlan"></select></label>
+  <label>Описание задачи
+   <textarea id="fTask" rows="4" aria-describedby="taskErr" placeholder="Что нужно получить от нейросети?"></textarea>
+   <span id="taskErr" class="err" role="alert"></span></label>
+  <label>Нейросеть<select id="fAi"><option>Claude</option><option>ChatGPT</option><option>Другая нейросеть</option><option>Пока не определился</option></select></label>
+  <label>Дополнительные требования<textarea id="fExtra" rows="2"></textarea></label>
+  <button class="btn primary" type="submit">Сформировать сообщение</button>
+ </form>
+ <div id="result" hidden>
+  <p class="dim">Сообщение никуда не отправлено. Скопируйте его и откройте Telegram — поле может заполниться автоматически, но не во всех клиентах.</p>
+  <textarea id="msg" rows="9" readonly></textarea>
+  <div class="actions"><button class="btn" type="button" id="copyMsg">Копировать</button><a class="btn primary" id="tgLink" href="https://t.me/rozovoye" target="_blank" rel="noopener">Открыть Telegram</a></div>
+  <p id="copyState" class="dim" role="status"></p>
+ </div>
+</dialog>
+
+<dialog id="exDlg" aria-labelledby="exTitle">
+ <div class="dhead"><h2 id="exTitle"></h2><button class="x" type="button" data-close aria-label="Закрыть">✕</button></div>
+ <p class="dim">Демонстрационный промт</p>
+ <pre id="exText" class="prompt" tabindex="0"></pre>
+ <div class="actions"><button class="btn" type="button" id="copyEx">Копировать</button><button class="btn primary" type="button" id="orderSimilar">Заказать похожий</button></div>
+ <p id="exState" class="dim" role="status"></p>
+</dialog>
+<script src="script.js"></script>
+</body>
+</html>
